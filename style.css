@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Roboto&display=swap');
+
+
+/* Navbar css */
+.link-nav{
+    color:rgb(148, 144, 144) ;
+    font-size: 24px;
+    margin-right: 40px;
+    font-weight: 300;
+    margin-top: 6px;
+    font-family: 'Josefin Sans', cursive;
+}
+.link-nav:hover{
+    color:green !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active-link-nav{
+    color: green;
+}
+.navbar-title{
+    font-size: 30px;
+    font-family: 'Josefin Sans', cursive;
+}
+
+/* Home css */
+body{
+    background-color:rgb(26, 30, 32);
+    color: white;
+}
+
+.holder{
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.description{
+    font-size: 60px;
+    max-width: 770px;
+   
+}
+
+.sub-description{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(148, 144, 144);
+    font-weight: 300;
+     font-family: 'Itim', cursive;
+}
+
+.round-div{
+    margin-top: 2.5em;
+}
+.round-div img{
+    border-radius: 50%;
+    height: 270px;
+}
+
+@media(max-width:742px){
+    .holder{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .round-div img{
+        height: 180px;
+    }
+    .description{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .sub-description{
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    .project-button{
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+}
+
+
+
+
+
+
+/* Contact css */
+
+.container{
+    text-align: center;
+    max-width: 770px;
+    background-color: transparent;
+}
+
+a.facebook {
+color:  #4267B2;
+}
+
+a.twitter {
+color: #49a1eb;
+}
+
+a.instagram {
+color:whitesmoke;
+}
+a.github{
+    color:white;
+}
+a.linkedin{
+    color: #0e76a8 ;
+}
+
+a.social {
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+.title{
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.iconHolder{
+    margin-top: 40px;
+}
+
+@media(max-width:742px){
+    .title{
+        margin-top: 120px;
+        font-size: 35px;
+    }
+    .iconHolder{
+        margin-top: 50px;
+    }
+    a.social{
+        margin-left: 0.2rem;
+    }
+}
+
+
+
+/* About css */
+
+.aboutHolder{
+    max-width: 770px;
+    min-height: 500px;
+    border-radius: 20px;
+    background-color: rgb(36,36,36);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px; 
+    padding-left: 10px;
+    padding-right:10px;   
+}
+
+.aboutTitle{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.meDescription{
+    text-align: justify;
+    color:rgb(148, 144, 144) ;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top:20px;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.end{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Itim', cursive;
+    color: darkgrey;
+}
+
+@media(max-width:742px){
+    .end{
+        font-size: 32px;
+    }
+}
+
+/* Project CSS */
+
+.projectHolder{
+    text-align: center;
+    max-width: 770px;
+    min-height: 500px;
+    border-radius: 20px;
+    background-color: rgb(36,36,36);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    
+}
+.projectCardHolder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projectCard{
+    margin-top: 30px;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 203px;
+    height:380px;
+    overflow: hidden;
+    
+}
+.projectCard:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+.imageHolder{
+    width: 200px;
+    height:250px;
+    overflow: hidden;
+    border-bottom: 3px solid black;
+}
+
+.imageHolder img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.projectDescription{
+    margin-top: 8px;
+    padding-left: 3px;
+    text-align: left;
+}
+.projectDescription>p1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+}
+.projectDescription>p{
+    font-size: 15px;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projectTitle{
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+@media(max-width:742px){
+    .projectCard{
+        width: 173px;
+        height: 300px;
+    }
+    .imageHolder{
+        height:180px;
+    }
+    .projectDescription>p1{
+        font-size: 18px;
+    }
+    .projectDescription>p{
+        font-size: 13px;
+    }
+}

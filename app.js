@@ -1,7 +1,9 @@
 const routes = {
   '/' : home,
+  '/about' : about,
+  '/projects': projects,
   '/contact' : contact,
-  '/about' : about
+  
 };
 
 const rootDiv = document.getElementById('root');
