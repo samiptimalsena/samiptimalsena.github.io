@@ -29,7 +29,7 @@ twitter_username: samip_timalsena
 github_username:  samiptimalsena
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
 
