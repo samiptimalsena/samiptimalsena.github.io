@@ -1,0 +1,7 @@
+main:
+  - title: "Posts"
+    url: "/archives"
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "/contact"
