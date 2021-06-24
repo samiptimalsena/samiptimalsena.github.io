@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+classes: wide
 ---
 
 Hi! I am an undergrad who loves applying and solving ML problems. In this site, I try sharing few things that I learned or applied.
@@ -11,6 +12,4 @@ Hi! I am an undergrad who loves applying and solving ML problems. In this site, 
 - Natural Language Processing
 - MLOps
 
-Download my Resume from ***[here][1]***.
-
-[1]:{{ site.url }}/download/Samip-Resume.pdf
+Download or View my Resume ***[here](/download/Samip-Resume.pdf)***.
