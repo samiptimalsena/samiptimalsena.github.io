@@ -87,7 +87,7 @@ defaults:
 
 author:
   name: "Samip Timalsena"
-  avatar: "/images/bio-photo.JPG"
+  avatar: "/assets/images/bio-photo.JPG"
   bio: "Data Science Practitioner"
   location: "Kathmandu, Nepal"
   links:

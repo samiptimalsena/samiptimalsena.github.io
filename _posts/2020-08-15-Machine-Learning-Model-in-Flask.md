@@ -1,5 +1,5 @@
 ---
-title:  "Machine Learning Model in Flask -- Simple and Easy"
+title:  "Machine Learning Model in Flask — Simple and Easy"
 date:   2020-08-15 08-00-00 
 classes: wide
 permalink: "/ML-model-deployment/"
@@ -13,29 +13,29 @@ In this article, we will see how to create an ML model to predict Indian Premier
 
 Our first task is to create model. The data set used for training this model is available in [kaggle](https://www.kaggle.com/). The data includes every IPL match statistics from 2008–2017. So, lets load the data set:
 
-![Read CSV](/images/ml_model_flask/read_csv.png)
+![Read CSV](/assets/images/ml_model_flask/read_csv.png)
 
 Since our data is from 2008, it includes teams that are not playing in current IPL. So lets remove those data. I have made a list of present teams in IPL, and created a new data frame which has batting and bowling team present in the created team list.
 
-![Read CSV](/images/ml_model_flask/read_csv2.png)
+![Read CSV](/assets/images/ml_model_flask/read_csv2.png)
 
 For model to have good generalization, i have set a threshold of 5 overs i.e to include those data in which over is greater than or equal to 5.1 overs. Doing so, our model will be able to predict a relevant score when team have at least played 5 overs. Also, i have converted date column from object variable type to date-time variable.
 
-![Read CSV](/images/ml_model_flask/img_3.png)
+![Read CSV](/assets/images/ml_model_flask/img_3.png)
 
 We have three categorical features in our data set(venue, bat_team, bowl_team). I have applied one-hot encoding to those feature using pandas library. Finally, our data preprocessing task is completed.
 
 Now, let us divide our data to training and testing set. For this we will not use train_test_split. This is because we have time-series data set. So, I have used date column to split the data. The matches from 2008–2016 are kept in training set, and matches of 2017 in test set. After splitting the data set, i have dropped date column as there in no correlation between predicting score and date.
 
-![Read CSV](/images/ml_model_flask/img_4.png)
+![Read CSV](/assets/images/ml_model_flask/img_4.png)
 
 For training, i have used linear regression, decision tree and random forest algorithms and calculated r2 score for each. Linear regression gave better r2 score (0.75) than decision tree (0.48) and random forest (0.64).
 
-![Read CSV](/images/ml_model_flask/img_5.png)
+![Read CSV](/assets/images/ml_model_flask/img_5.png)
 
 I tried some hyperparameter optimization in Ridge linear regression using RandomizedSearch CV algorithm, but r2 score of this model was pretty much equal to that of linear regression. So, i saved the linear model using pickle library.
 
-![Read CSV](/images/ml_model_flask/img_6.png)
+![Read CSV](/assets/images/ml_model_flask/img_6.png)
 
 ### Deploying Model:
 

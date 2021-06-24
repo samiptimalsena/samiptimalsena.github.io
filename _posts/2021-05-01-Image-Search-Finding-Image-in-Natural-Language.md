@@ -2,7 +2,7 @@
 title:  "Image Search — Finding Image in Natural Language"
 date:   2021-05-01 08-00-00 
 classes: wide
-permalink: "/Image-Seach-In-NLP/"
+permalink: "/Image-Search-In-NLP/"
 excerpt: "Have you ever been in a situation where you had problem in finding a particular image from a large collection of images in your computer?"
 ---
 Have you ever been in a situation where you had problem in finding a particular image from a large collection of images in your computer and you wished you could search it by describing the image in natural language. If yes, this article is for you. Here I am going to describe a project that I recently did to overcome this problem in searching an image.
@@ -32,7 +32,7 @@ Now if i run the following command, i see a beautiful image containing a rainbow
 $ python3 search.py -p ~/py_works/notebooks/images/ -q 'Rainbow' -c 1
 ```
 
-![Rainbow](/images/Image_Search/rainbow.png)
+![Rainbow](/assets/images/Image_Search/rainbow.png)
 
 Change the searching query and searching directory and you probably find the image you want.
 
