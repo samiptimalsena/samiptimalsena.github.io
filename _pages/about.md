@@ -12,4 +12,4 @@ Hi! I am an undergrad who loves applying and solving ML problems. In this site, 
 - Natural Language Processing
 - MLOps
 
-Download or View my Resume ***[here](/download/Samip-Resume.pdf)***.
+Download or View my Resume ***[here](/assets/pdfs/Samip-Resume.pdf)***.
