@@ -10,3 +10,7 @@ Hi! I am an undergrad who loves applying and solving ML problems. In this site, 
 - Machine Learning
 - Natural Language Processing
 - MLOps
+
+Download my Resume from ***[here][1]***.
+
+[1]:{{ site.url }}/download/Samip-Resume.pdf
