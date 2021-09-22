@@ -2,6 +2,8 @@
 title:  "Machine Learning Model in Flask — Simple and Easy"
 date:   2020-08-15 08-00-00 
 classes: wide
+header:
+  teaser: /assets/images/ml_model_flask/read_csv.png
 permalink: "/ML-model-deployment/"
 excerpt: "If you have created a machine learning(ML) model and you want your friends to try it out, the best way to do is to deploy your model in a flask server."
 ---

@@ -2,6 +2,8 @@
 title:  "Micro Implementation of Micro-Services"
 date:   2021-06-26 08-00-00 
 classes: wide
+header:
+  teaser: /assets/images/micro-microservices/post_request.png
 permalink: "/micro-implementation-of-microservices/"
 excerpt: "Do you actually need micro-services? Yes, but No."
 ---

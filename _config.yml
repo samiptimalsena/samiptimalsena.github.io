@@ -23,25 +23,26 @@ email: samip425@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sharing things that I know a little.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: samiptimalsena.github.io # the base hostname & protocol for your site, e.g. http://example.com
-# url: ""
+# url: samiptimalsena.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: ""
 masthead_title: Samip
 twitter_username: samiptimalsena
 github_username:  samiptimalsena
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes
-# theme: minimal-mistakes-jekyll
+# remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  # - jemoji
   - jekyll-include-cache
 
 minimal_mistakes_skin: "dirt"
 search: true
+paginate: 5
 
 include:
   - _pages
@@ -77,6 +78,7 @@ defaults:
       author_profile: true
       read_time: true
       share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
