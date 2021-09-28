@@ -10,6 +10,7 @@ excerpt: "Understanding speech has always been a tough task, so as to convert it
 ---
 
 Understanding speech has always been a tough task, so as to convert it to text. But the scenario has changed a lot. With the advent of Deep Learning, the process has become not only easier but also the accuracy it achieves in understanding and transcribing it to text is really remarkable. In this article I will share how I built a web app that replies to a few questions you asked about me.
+
 One fine evening, I decided to make something that replies when somebody asks about me, on behalf of me. I wanted to make use of some state-of-the-art models for better and powerful performance. So I landed to [HuggingFace model Hub](https://huggingface.co/models). I decided to use **Wav2Vec2** for speech recognition, **Sentence-transfomers** for embedding the sentence, and deploy it in **Gradio** App to make the inference quick and easy.
 
 ![Embeddings](/assets/images/Speech2Text_With_Sentence_Similarity/embedding.png)
