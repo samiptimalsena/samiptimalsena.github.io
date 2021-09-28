@@ -3,6 +3,7 @@ title:  "Image Search — Finding Image in Natural Language"
 date:   2021-05-01 08-00-00 
 classes: wide
 header:
+  og_image: /assets/images/Image_Search/rainbow.png
   teaser: /assets/images/Image_Search/rainbow.png
 permalink: "/Image-Search-In-NLP/"
 excerpt: "Have you ever been in a situation where you had problem in finding a particular image from a large collection of images in your computer?"

@@ -3,6 +3,7 @@ title:  "How Computer Understand Images?"
 date:   2021-01-25 08-00-00 
 classes: wide
 header:
+  og_image: /assets/images/How_Computer_Understand_Images/abrahm_lincoln.png
   teaser: /assets/images/How_Computer_Understand_Images/abrahm_lincoln.png
 permalink: "/How-Computer-Understand-Images/"
 excerpt: "With the advent of pretrained models and cheaper computation, it’s now as easy as pie to train near state-of-the-art(SOTA) models at home."

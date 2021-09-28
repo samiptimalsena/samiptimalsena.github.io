@@ -3,6 +3,7 @@ title:  "Time Series Analysis — A quick tour of fbProphet"
 date:   2020-11-01 08-00-00 
 classes: wide
 header:
+  og_image: /assets/images/Time_series_fbprophet/img_1.png
   teaser: /assets/images/Time_series_fbprophet/img_1.png
 permalink: "/time-series-in-fbprophet/"
 excerpt: "The series of data points plotted against time is known as time series. It is a de-facto analysis technique used in market evaluation and in weather forecast."
